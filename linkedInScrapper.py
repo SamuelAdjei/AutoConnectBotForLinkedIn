@@ -2,7 +2,7 @@ from selenium import webdriver
 from selenium.webdriver.common.keys import Keys
 import time
 keywords=["ceo","CTO","founder","co founder","owner"]
-driver = webdriver.Chrome(executable_path='/Users/allu/Desktop/selenium_drivers/chromedriver')
+driver = webdriver.Chrome(executable_path='path/to/selenium/chrome/driver')
 driver.get('https://www.linkedin.com/')
 username = driver.find_element_by_id("login-email")
 password = driver.find_element_by_id("login-password")
